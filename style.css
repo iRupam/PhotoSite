@@ -69,6 +69,7 @@ p{
     justify-content: center;
     margin-top: 100px;
     background-color: black;
+    border-radius: 10px;
 }
 #image1,#image2,#image3{
     /* height:auto; */
