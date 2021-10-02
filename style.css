@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Elysian Fields;
+    src: url(fonts/Elysian\ Fields.otf);
+}
 nav{
     background-color:aquamarine;
     width:100%;
@@ -57,4 +61,36 @@ footer{
 }
 p{
     margin:2px;
+} 
+#gallery{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: black;
+    border-radius: 10px;
+}
+#image1,#image2,#image3{
+    /* height:auto; */
+    /* width:auto; */
+    border:1px solid skyblue;
+    text-align: center;
+    margin: 20px;
+   
+}
+img{
+    width:350px;
+    height:200px;
+}
+/* #image1{
+    position:relative;
+    max-width:1000px;
+}*/
+.text{
+    /* position:absolute; */
+    /* align-self: center; */
+    font-family:Elysian Fields;
+    font-size: x-small;
+    background-color: chocolate;
 } 
